@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e70e2e;
+}
+.App{
+  background-color: #e70e2e;
+  height: 80vh;
+  width: 30rem;
+  border-radius: 40px;
+  position: relative;
+}
+#logo{
+  position: relative;
+  top: 0rem;
+  left: 4.5rem;
+}
+video {
+  width: 70%;
+  height: 45%;
+  object-fit: cover;
+}
+#body{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#body span{
+  margin-top: 9px;
+}
+#body input{
+  border-radius: 10px;
+  outline: 2px solid black;
+  border: 0;
+  width: 90%;
+  height: 25px;
+  border-bottom: 2px solid white;
+  outline-offset: 3px;
+  padding: 13px 1rem;
+  transition: 0.25s;
+  margin-top: 5px;
+}
+#body input::placeholder{
+  color: black;
+
+}
+#body input:focus{
+  outline-offset: 8px;
+  background-color: #fff;
+}
+button{
+  width: 110px;
+  height: 38px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #ffffff80;
+  transition: 0.5s ease;
+  user-select: none;
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+button:hover{
+  color: black;
+  background: white;
+  border: 1px solid white;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px white, 0 0 20px white, 0 0 50px white,
+    0 0 100px white;
+}
+#status{
+  color: white;
+  position: absolute;
+  bottom: 17px;
+  left: 26%;
+
+}
+
+
+
