@@ -21,7 +21,7 @@ function App() {
             clearInterval(interval);
           }
           else if(res.status === 200 && res.data.status === "fail"){
-            alert("Invalid video URL");
+            alert("Invalid video URL, please don't use share links");
             setDisabled(false);
             clearInterval(interval);
           }
