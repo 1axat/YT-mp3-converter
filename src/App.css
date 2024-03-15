@@ -94,5 +94,12 @@ button:hover{
 
 }
 
+@media only screen and (max-width: 600px) {
+  .App {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
 
+}
 
