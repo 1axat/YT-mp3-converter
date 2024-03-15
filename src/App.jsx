@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Logo from "./assets/Logo.mp4";
+import Logo from "./assets/Logo1.gif";
 import { fetch } from "./services/ApiRequest";
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
   return (
       <div className="App">
         <div id="logo">
-          <video src={Logo} autoPlay loop muted />
+          <img src={Logo}  /> 
         </div>
         <div id="body">
           <input 
