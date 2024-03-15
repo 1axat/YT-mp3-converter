@@ -104,6 +104,7 @@ button:hover{
   button{
     text-align: center;
     margin: 0 auto;
+    width: 120px;
   }
   body{
     overflow: hidden;
