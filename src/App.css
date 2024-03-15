@@ -11,6 +11,7 @@ body{
   align-items: center;
   height: 100vh;
   background: #e70e2e;
+  overflow: hidden;
 }
 .App{
   background-color: #e70e2e;
@@ -102,6 +103,9 @@ button:hover{
   }
   button{
     text-align: center;
+  }
+  body{
+    overflow: hidden;
   }
 }
 
